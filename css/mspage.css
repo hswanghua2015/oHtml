@@ -155,7 +155,7 @@
 }
 .mask {
 	background: url(../images/h5_Mask.png) no-repeat center center;
-	width: 99.7%;
+	width: 99.3%;
 	height: 100%;
 	bottom: 0px;
 	position: absolute;
@@ -246,7 +246,7 @@
 	height: 1.7rem;
 	line-height: 1.5rem;
 	position: absolute;
-	right: 0;
+	right: 1px;
 	top: 1px;
 	width: 10rem;
 	color: #ffffff;
@@ -277,7 +277,7 @@
 }
 .TitH3 {
 	paddding: 0;
-	margin: 0 12px;
+	margin: 0 1.5rem;
 	line-height: 3.5rem;
 	height: 3.5rem;
 	font-weight: normal;
@@ -298,6 +298,9 @@
 html {
 	font-size: 13px
 }
+.djTime{
+	width:10.1rem;
+	}
 }
  @media screen and (min-width: 321px) and (max-width: 479px) {
 html {
@@ -321,7 +324,7 @@ html {
 	background-size: 100% 2.4rem;
 }
 .djTime {
-	width: 14rem!important;
+	width: 14.7rem!important;
 }
 .djTime i:nth-child(1) {
 	width: 5.4rem!important;
@@ -337,66 +340,4 @@ html {
 }
 
 }
-@media screen and (min-width:750px) and (max-width:799px) {
-    html {
-        font-size: 18px
-    }
-.djTime {
-	width: 14rem!important;
-}
-.djTime i:nth-child(1) {
-	width: 5.4rem!important;
-}
-.djTime i {
-	width: 1.2rem!important;
-}
 
-.djTime i:nth-child(1) {
-    padding-right: 0.5rem;
-    text-align: right;
-    width: 3.6rem;
-}
-}
-
- @media screen and (min-width: 1200px) {
-html, body {
-	font-size: 18px;
-}
-.seckill {
-	padding-top: 3rem;
-	background:url(../images/miao_head.png) no-repeat center top;
-	background-size: 100% 2.4rem;
-}
-.am dl dt p {
-	margin-bottom: 4.3rem;
-}
-.miaosha .item .bottom .xianjia {
-	font-size: 0.8rem;
-}
-.seckill {
-	padding-top: 5rem;
-}
-.bjWhite ul li:nth-child(1) {
-	background: url(../images/ms_icon1.png) no-repeat 3.8rem center;
-	background-size: 2rem 2rem;
-}
-.bjWhite ul li:nth-child(2) {
-	background: url(../images/ms_icon2.png) no-repeat 3.8rem center;
-	background-size: 2rem 2rem;
-}
-.bjWhite ul li:nth-child(3) {
-	background: url(../images/ms_icon3.png) no-repeat 3.8rem center;
-	background-size: 2rem 2rem;
-}
-.jingxuanbody {
-	background-color: white;
-	font-family: "Microsoft Yahei";
-}
-
-}
-@media screen and (min-width:1921px) {
-html {
-	font-size: 18px
-}
-
-}
