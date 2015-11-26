@@ -347,6 +347,7 @@ body {
 }
 .seckill {
 	padding-top: 3rem;
+	background: url(images/miao_head.png) no-repeat center top;
 	background-size: 100% 2.4rem !important;
 }
 .seckillBuy, .seckillBuyMask {
