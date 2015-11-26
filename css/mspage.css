@@ -178,15 +178,24 @@
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
-.am dl dd img {
-	border-radius:0.4rem;
-	display: block;
-	height: auto;
-	margin: 0 auto;
-	max-width: 99%;
-	width: 99%;
-	border: 1px solid #CCCCCC;
+.am dl dd .ImgBor{
+	border: 1px solid #cccccc;
+    border-radius: 0.4rem;
+    height: auto;
+    margin: 0 auto;
+    max-width: 99%;
+    width: 99%;
+	overflow:hidden;
 }
+.am dl dd .ImgBor img{
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    width:100%;
+	border:0;
+}
+
 
 .am dl dt {
 	float: left;
